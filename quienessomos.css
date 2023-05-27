@@ -1,0 +1,174 @@
+header{background-color:rgb(206, 206, 184) ;
+    left: 0;
+    top:0;
+    right:0;
+    
+    }
+        h1{font-family: cursive;
+    font-size: 6em;
+    text-align: center;
+    color: crimson;
+    text-shadow: darkgray 5px 5px;
+    letter-spacing: 5px;
+    }
+    body{
+        margin: 0;
+        background-image: url("Pictures/f.jpg");
+    }
+    .navegacion ul{
+        list-style: none; 
+    }
+    .menu > li{
+        position: relative;
+        display: inline-block;
+    }
+
+     .menu >li > a{
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 0.5rem 1rem;
+        margin-left: 8em;
+        transition: all 0.5s linear;
+        border-radius: 5px;
+    }
+   .menu li a:hover{
+        background: darkgrey;
+    }
+    .sub{
+        position: absolute;
+        visibility: hidden; 
+       opacity: 0;
+       transition: opacity 1.5s;
+       width: 120%;
+       text-align: center;
+       font-size: 20px;
+    }
+    .sub li a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        transition: all 0.5s linear;
+        border-radius: 5px;
+        padding: 15px;
+        background-color: rgb(206, 206, 184)
+    }
+   .menu li:hover .sub{
+       visibility: visible;
+       opacity: 1;
+   }
+    #destacar{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 3px;
+        font-size: 35px;
+        color: darkslategrey;
+       border-style: solid;
+    }
+    .imp{
+        text-align: justify;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin-left: 12em; 
+        margin-right: 15em;
+        line-height: 2em;
+        box-shadow: inset;
+    }
+    #im1{
+       transform: translateX(800px) translateY(-150px);
+    }
+    #uno{
+        transform: translateY(-200px);
+
+    }
+    .otro{
+        text-align: justify;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin-left: 12em; 
+        margin-right: 15em;
+        line-height: 2em;
+    }
+    h2{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 3px;
+        font-size: 35px;
+        color: darkslategrey;
+    }
+    #mover{
+        transform: translateY(-100px);
+    }
+    #im2{
+        transform: translateX(800px) translateY(-230px);
+    }
+    #mover1{
+        transform: translateY(-230px);
+    }
+    #comp{
+        transform: translateY(-140px);
+    }
+    #im3{
+        transform: translateX(600px) translateY(-160px);
+    }
+    #mover2{
+        transform: translateY(-150px);
+    }
+    #mover3{
+        transform: translateY(-100px);
+    }
+    #im4{
+        transform: translateX(600px) translateY(-100px);
+    }
+    #mover4{
+        transform: translateY(-100px);
+    }
+    div{
+        background-color: darkslategray;
+        transform: translateY(250px);
+    }
+    .pie{
+        margin-left: 4em;
+        color: white;
+    }
+    #fin li a{
+        color: white;
+        text-decoration: none;
+    }
+    #fin li a:hover{
+        text-decoration: underline;
+    }
+    #contactanos{
+        transform: translateX(300px) translateY(120px);
+        color: white;
+    }
+    #integrantes{
+        transform: translateX(950px)translateY(-10px);
+        color: white;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+        margin-right: 2em;
+        margin-left: 2em
+        ;
+    }
+    @media (max-width: 576px) {
+    
+    }
+    
+  
+    @media (min-width: 577px) and (max-width: 991px) {
+    
+    }
+    
+  
+    @media (min-width: 992px) {
+   
+    }
+
+    
